@@ -24,7 +24,7 @@ class YeahController extends Controller
      */
     public function create()
     {
-        //
+        // lets create more text
     }
 
     /**

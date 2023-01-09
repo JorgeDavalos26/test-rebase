@@ -14,7 +14,9 @@ class TestController extends Controller
      */
     public function index()
     {
-        //
+        User::create([
+            "yes" => 1
+        ]);
     }
 
     /**

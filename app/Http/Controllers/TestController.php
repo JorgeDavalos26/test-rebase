@@ -15,7 +15,7 @@ class TestController extends Controller
     public function index()
     {
         User::create([
-            "yes" => 1
+            "yes" => 2
         ]);
     }
 
@@ -26,7 +26,7 @@ class TestController extends Controller
      */
     public function create()
     {
-        User::where('email', 'test')->get();
+        User::where('email', 'test')->get(); // yeah
     }
 
     /**
